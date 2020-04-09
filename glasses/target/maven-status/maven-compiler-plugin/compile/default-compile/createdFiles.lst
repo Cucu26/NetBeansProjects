@@ -1,0 +1,7 @@
+utn\frd\glasses\rest\services\ClienteRest.class
+utn\frd\glasses\sessions\ClienteFacade.class
+utn\frd\glasses\sessions\AbstractFacade.class
+utn\frd\glasses\resources\JavaEE8Resource.class
+utn\frd\glasses\entity\Cliente.class
+utn\frd\glasses\JAXRSConfiguration.class
+utn\frd\glasses\rest\services\ApplicationConfig.class

@@ -1,0 +1,16 @@
+/* AUTOMATICALLY GENERATED ON Thu Apr 02 16:08:20 ART 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "utn.frd.glasses.rest.services.ApplicationConfig", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+  permission javax.security.jacc.WebRoleRefPermission "utn.frd.glasses.JAXRSConfiguration", "**";
+};
+
