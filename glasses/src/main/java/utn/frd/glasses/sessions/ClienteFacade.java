@@ -17,7 +17,7 @@ import utn.frd.glasses.entity.Cliente;
 @Stateless
 public class ClienteFacade extends AbstractFacade<Cliente> {
 
-    @PersistenceContext(unitName = "jdbc/glassesDataSource")
+    @PersistenceContext(unitName = "jdbc/dds")
     private EntityManager em;
     @Override
     protected EntityManager getEntityManager() {
